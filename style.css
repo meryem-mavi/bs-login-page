@@ -1,27 +1,32 @@
 body {
-    background-image: url(bg.jpg);
-    background-repeat: no-repeat;
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: fixed;
 }
-.row{
+
+.row {
     height: 100vh;
 }
+
 .col h3 {
     font-family: "Bursh Script MT", cursive;
     font-style: italic;
 }
 
-.header{
+.header {
     font-family: "Bursh Script MT", cursive;
     font-weight: bold;
     font-size: 24px;
 
 }
-input::placeholder{
+
+input::placeholder {
     font-size: 14px;
 }
-form p a{
+
+form p a {
     font-size: 14px;
     text-decoration: none;
 }
